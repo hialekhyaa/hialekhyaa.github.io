@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+            
+        <script src="https://kit.fontawesome.com/c6c48435c6.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    
+<section class="about">
+    <nav>
+        <div class="links" id="navLinks">
+            <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Alekhyaa</h1>
+    
+</section>
+
+<section class="ab education">
+    <div class="row ed">
+        <div class="ed-left" data-aos="fade-up">
+            <h1>Education:</h1>
+            <br>
+            <h2>University of Texas at Dallas</h2>
+            <p>Bachelor's Degree | Fall 2021 - present</p>
+            <p><strong>Major: </strong>Computer Science</p>
+            <br>
+            <h2>Independence High School</h2>
+            <p>High School Degree | Fall 2020 - Spring 2021</p>
+            <p><strong>Honors: </strong>Cum Laude</p>
+            <br>
+            <h2>Jefferson City High School</h2>
+            <p>Fall 2017 - Spring 2020</p>
+            <p><strong>Honors: </strong>AP Scholar, Scholar Athlete</p>
+        </div>
+        <div class="ed-right" data-aos="fade-up">
+            <div class="row">
+            <img src="imgs/grad.png">
+            <p> I started off my high school journey in my hometown, Jefferson City. During my time there, I played varsity tennis and was secretary for an environmental awareness club. Before senior year, I moved to Texas and finsihed up high school. At UTD, some of the coursework I have taken are: Discrete Mathematics, Linear Algebra, and Computer Science. I look forward to taking more classes and learning new skills! </p>
+    
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ab act">
+    <div class="row">
+        <div class="act-text" data-aos="fade-up">
+            <h1>Activities:</h1>
+            <br>
+            <h2>Ladies in Tech<h2>
+            <div class="ital">
+            <p>Liason Chair</p>
+            </div>
+            <p>LIT is a mentoring program dedicated to help new students feel connected to their major and other women in tech through mentorship. I started off as a mentee for this program during my first year at UTD. Currently, I am the Liaison Chair for this program. I'm in charge of managing the commincation of events/opportunities to members and maintaining relations with other engineering/computer science organizations.</p>
+            <br>
+            <h2>Women Who Compute<h2>
+            <div class="ital">
+            <p>Outreach Officer</p>
+            </div>
+            <p>WWC is an organization that focusses on giving women in STEM fields oppotunities to grow and become sucessful in their future careers. Companies are able to host techinal workshops and networking events through this organization. Currently, I am the outreach officer. I participate in a weekly officer meeting as well as attend these techinal events. </p>
+
+        </div>
+        <div class="act-img" data-aos="fade-up">
+            <img src="imgs/lit.png">
+            <img src="imgs/wwc.png">
+        </div>
+    </div>
+</section>
+
+
+<!--- footer --->
+
+<section class="foot">
+    <h4>2022 | Designed & Created by: Alekhyaa Donthireddy</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/alekhyaadonthireddy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/alekhyaa-donthireddy" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:hialekhyaa@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+</section>
+
+
+    
+<!--- for menu --->
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+    
+</body>
+
+</html>

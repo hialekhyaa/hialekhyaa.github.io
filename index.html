@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>Alekhyaa :)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+            
+        <script src="https://kit.fontawesome.com/c6c48435c6.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    
+<div class="container">
+<section class="header">
+    <nav>
+        <div class="links" id="navLinks">
+            <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <div class="row">
+        <div class="head-left" data-aos="fade" data-aos-duration="3000">
+            <img src="imgs/lake.png">
+        </div>
+        <div class="head-right" data-aos="fade-up" data-aos-duration="3000">
+            <h1>Alekhyaa <br> Donthireddy</h1>
+            <p> A personal website. </p>
+            <a href = "#intro" class="btn">Explore</a>
+        </div>
+        
+    </div>
+</section>
+
+<!---intro--->
+
+<section class="intro" id="intro">
+    <div class="row">
+        <div class="list" data-aos="fade-right">
+            <ul>
+                <br>
+                <li>
+                    <strong>Name: </strong>
+                    <span>Alekhyaa Donthireddy</span>
+                </li>
+                <br>
+                <li>
+                    <strong>Pronouns: </strong>
+                    <span>she/her/hers</span>
+                </li>
+                <br>
+                <li>
+                    <strong>School: </strong>
+                    <span>University of Texas at Dallas</span>
+                </li>
+                <br>
+                <li>
+                    <strong>Age: </strong>
+                    <span>18</span>
+                </li>
+                <br>
+                <li>
+                    <strong>Hometown: </strong>
+                    <span>Jefferson City, MO</span>
+                </li>
+            <ul>
+                <div class="layer">
+                </div>
+        </div>
+        <div class="para" data-aos="fade-left">
+            <br>
+            <br>
+            <p>I'm a student at UTD currently pursuing a degree in Computer Science. I have a passion for coding, analytical thinking, and problem-solving. I enjoy exploring different fields in Computer Science. Currently, my skill set includes: C++ and HTML/CSS. I hope to expand my knowledge and learn new skills through my classes and projects!</p>
+            <br>
+            <p>I believe in making computer science more accessible to diverse groups. At UTD, I'm a part of student organizations, such as Ladies in Tech and Women Who Compute, that empower and support women in technology fields. When I have some free time, I enjoy painting, watching movies/tv shows, and playing tennis.</p>
+        </div>
+    </div>
+</section>
+</div>
+
+<section class="foot" id="foot">
+    <h4>2022 | Designed & Created by: Alekhyaa Donthireddy</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/alekhyaadonthireddy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/alekhyaa-donthireddy" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:hialekhyaa@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+</section>
+
+    
+<!--- for menu --->
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+
+    
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+    
+</body>
+
+</html>
