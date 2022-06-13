@@ -555,7 +555,7 @@ nav .fa-solid
 
 
 /* M E D I A */
-@media(max-width: 700px)
+@media(max-width: 1000px)
 {
     .row
     {
