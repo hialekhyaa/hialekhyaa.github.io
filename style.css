@@ -564,7 +564,15 @@ nav .fa-solid
     
     .head-right h1
     {
-        font-size: 50px;
+        font-size: 80px;
+    }
+    .head-right p
+    {
+        font-size: 40px;
+    }
+    .head-right a
+    {
+        font-size: 30px;
     }
     .links ul li
     {
@@ -574,7 +582,7 @@ nav .fa-solid
     {
         position: fixed;
         background: #b5838d;
-        height: 100vh;
+        height: 500px;
         width: 200px;
         top: 0;
         right: -200px;
@@ -587,14 +595,24 @@ nav .fa-solid
         display: block;
         color: #fff;
         margin: 10px;
-        font-size: 22px;
+        font-size: 40px;
         cursor: pointer;
     }
+    
+    .links a
+    {
+        font-size: 30px;
+    }
+    
     nav .fa-bars
     {
         padding-left: 95%;
     }
     
+    .nav
+    {
+        height: 100px;
+    }
     
     .links ul
     {
@@ -625,5 +643,9 @@ nav .fa-solid
         width: 75%;
     }
     
+    .foot h4
+    {
+        font-size: 30px;
+    }
 }
 
