@@ -75,7 +75,7 @@ nav
 {
     color: #ffcdb2;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 26px;
     cursor: crosshair;
 }
 
@@ -112,7 +112,7 @@ nav .fa-solid
 {
     flex-basis: 34%;
     margin-left: 160px;
-    margin right: 10px;
+    margin-right: 10px;
     background: transparent;
     position: relative;
     overflow: hidden;
@@ -177,7 +177,6 @@ nav .fa-solid
 
 .intro
 {
-    width: 80%
     margin: auto;
     padding: 100px;
     background-color: #faf0e6;
@@ -345,7 +344,7 @@ nav .fa-solid
 
 /* A B O U T */
 
-.about
+.about, .projects
 {
     width: 100%;
     height: 300px;
@@ -355,7 +354,7 @@ nav .fa-solid
     position: relative;
 } /*rgba(229,152,155,0.7) rgba(181,131,141,0.7) */
 
-.about h1
+.about h1, .projects h1
 {
     padding-top: 50px;
     text-align: center;
@@ -370,6 +369,31 @@ nav .fa-solid
     color: #6d6875;
     display: flex;
     position: relative;
+}
+
+.pro
+{
+    background-color: #faf0e6;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.project-grid
+{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+   
+}
+
+.project-grid img
+{
+    width: 180%;
+    cursor: crosshair;
+    
 }
 
 .ab h1
@@ -553,6 +577,13 @@ nav .fa-solid
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
+.project-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+
 
 /* M E D I A */
 @media(max-width: 1000px)
@@ -598,10 +629,15 @@ nav .fa-solid
         font-size: 40px;
         cursor: pointer;
     }
-    
-    .links a
+
+    nav .fa-solid i
     {
         font-size: 30px;
+    }
+    
+    .links ul li a
+    {
+        font-size: 32px;
     }
     
     nav .fa-bars
